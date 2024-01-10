@@ -1,23 +1,23 @@
-# WEB102 Prework - *Name of App Here*
+# WEB102 Prework - Sea Games
 
-Submitted by: **Your Name Here**
+Submitted by: Kristin Ebuengan
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+Sea Games is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **X** hours spent in total
+Time spent: 4 hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-* [ ] The introduction section explains the background of the company and how many games remain unfunded.
-* [ ] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
-* [ ] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
-* [ ] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
+* [x] The introduction section explains the background of the company and how many games remain unfunded.
+* [x] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
+* [x] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
+* [x] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
 
 The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* none
 
 ## Video Walkthrough
 
@@ -34,11 +34,15 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+I had a lot of trouble with challenge 4 because I forgot I add to create an element using `document.createElement()` and not just `createElement()`
+
+I also have a bug with my laptop that uses the cache from a previous lab assignment, so in order to refresh my page locally, I have to manually delete the cache every time (I don't know how to solve this I already tried deleting the old files. If anyone knows what's going on, help would be appreciated).
+
+The information of the games also don't display correctly locally so that is why I uploaded the page on Github Pages and filmed by gif using that.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2024 Kristin Ebuengan
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
