@@ -23,22 +23,17 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='./SeaGames.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
+GIF created with 
 [ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
 
-I had a lot of trouble with challenge 4 because I forgot I add to create an element using `document.createElement()` and not just `createElement()`
+I had a lot of trouble with challenge 4 because I forgot I add to create an element using `document.createElement()` and not just `createElement()`. I also didn't realize that a for each loop in JS used `of` instead of `in`. My game cards were displaying as undefined because of this mix up, but thankfully the TFM Adriana Morales was able to help me and find the solution.
 
 I also have a bug with my laptop that uses the cache from a previous lab assignment, so in order to refresh my page locally, I have to manually delete the cache every time (I don't know how to solve this I already tried deleting the old files. If anyone knows what's going on, help would be appreciated).
-
-The information of the games also don't display correctly locally so that is why I uploaded the page on Github Pages and filmed by gif using that.
 
 ## License
 

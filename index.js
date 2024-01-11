@@ -28,7 +28,7 @@ const gamesContainer = document.getElementById("games-container");
 // create a function that adds all data from the games array to the page
 function addGamesToPage(games) {
     // loop over each item in the data
-    for(const element in games){
+    for(const element of games){
         // create a new div element, which will become the game card
         // add the class game-card to the list
 
@@ -41,7 +41,7 @@ function addGamesToPage(games) {
         div.innerHTML = `
             <h1>${element.name}</h1>
             <p>${element.description}</p>
-            <img src=${element.img} />`;
+            <img class="game-img" src=${element.img} />`;
         // append the game to the games-container
         gamesContainer.append(div);
     }
